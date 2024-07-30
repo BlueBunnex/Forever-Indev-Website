@@ -9,6 +9,7 @@
     <style>
         .wiki-entry { overflow: hidden; }
         .wiki-entry > img { float: right; width: 200px; margin-bottom: 4px; }
+        .command { background: black; padding: 3px 6px; }
     </style>
 </head>
 <body>
@@ -112,10 +113,25 @@
                         </div>
 
                         <h3 id="commands">Commands</h3>
-                        
-                        <p>/help | Shows all commands.</p>
-                    	<p>/give [item ID] [opt. item amount] | Gives the player the specified item.</p>
-                    	<p>/gamemode [0=survival/1=creative] | Changes the player's gamemode.</p>
+
+                        <table>
+                            <tr>
+                                <td class="command">/help</td>
+                                <td>Shows all commands.</td>
+                            </tr>
+                            <tr>
+                                <td class="command">/give [item ID] [opt. item amount]</td>
+                                <td>Gives the player the specified item.</td>
+                            </tr>
+                            <tr>
+                                <td class="command">/gamemode [0=survival/1=creative]</td>
+                                <td>Changes the player's gamemode.</td>
+                            </tr>
+                            <tr>
+                                <td class="command">/enchant [enchant type] [opt. enchant level]</td>
+                                <td>Enchants the held item with the provided enchant.</td>
+                            </tr>
+                        </table>
                         
                     </div>
                 </main>
